@@ -1,13 +1,4 @@
-"""
-Login dialog.
 
-  * First run (no accounts yet): shows "Create your first account".
-  * Afterwards: shows the login form, with a button to create another account.
-  * Five wrong attempts close the dialog (the program then exits).
-
-Use:   user = LoginDialog.ask()      # {"id": .., "username": ..}, or None if
-                                     # cancelled / locked out
-"""
 
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
