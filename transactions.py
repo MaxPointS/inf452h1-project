@@ -1,14 +1,3 @@
-"""
-Transactions screen - PySide6 version of the original Tkinter transactions.py.
-
-Entry point is unchanged:  create_transactions_screen(parent=None)
-It still uses your existing `database` and `finance_logic` modules.
-
-Changes from the Tkinter version
-  * The date field is a QDateEdit. The old code read self.date_var, which was
-    commented out, so Add / Update / row-select would have raised AttributeError.
-  * mindate=date.today() was removed so past transactions can be entered.
-"""
 
 from PySide6.QtCore import QDate, Qt
 from PySide6.QtWidgets import (
