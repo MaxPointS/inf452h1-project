@@ -1,9 +1,4 @@
-"""
-Dashboard screen - PySide6 version of the original Tkinter dashboard.py.
 
-Entry point is unchanged:  create_dashboard(parent=None)
-It still uses your existing `database` and `finance_logic` modules.
-"""
 
 from datetime import date
 
