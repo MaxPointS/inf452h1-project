@@ -1,16 +1,3 @@
-"""
-Database layer (SQLite) - multi-user version.
-
-Every transaction and budget belongs to a user.  After login, main_mdi.py
-calls set_current_user(user_id) once; from then on every function below only
-sees and changes that user's rows, so the screens need no changes.
-
-Settings (theme, font size, language, currency) stay application-wide.
-
-An existing finance.db from the single-user version is upgraded
-automatically by initialize_db(): the old rows are kept, and the first
-account that is created becomes their owner.
-"""
 
 import sqlite3
 from contextlib import contextmanager
