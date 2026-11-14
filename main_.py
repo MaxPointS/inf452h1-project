@@ -1,20 +1,3 @@
-"""
-Personal Finance Management System - MDI main window (PySide6)
-
-Each screen lives in its own file and is opened as a child window from the
-menu bar.  To add another screen later (e.g. transactions.py):
-
-    1. from transactions import create_transactions_screen
-    2. add one line to SCREENS below
-
-Files needed in the same folder:
-    main_mdi.py   dashboard.py   transactions.py   budgets.py
-    reports.py    settings.py    login.py          auth.py
-    database.py   finance_logic.py
-
-Install:  pip install PySide6 matplotlib
-Run:      python main_mdi.py
-"""
 
 import sys
 
