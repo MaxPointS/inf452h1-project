@@ -1,17 +1,3 @@
-"""
-Settings screen - PySide6 version of the original Tkinter settings.py.
-
-Entry point is unchanged:  create_settings_screen(parent=None)
-It still uses `database.get_setting()` / `database.save_setting()`.
-
-Changes from the Tkinter version
-  * Theme (Light / Dark) is now really applied, not just saved.
-  * Font size is applied to the whole application (QApplication font).
-  * apply_saved_settings() is called by main_mdi.py at start-up so your
-    saved theme and font size are used every time the program opens.
-  * Language and currency are still stored only (nothing else in the
-    application reads them yet), same as before.
-"""
 
 from PySide6.QtGui import QColor, QFont, QPalette
 from PySide6.QtWidgets import (
