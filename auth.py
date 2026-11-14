@@ -1,19 +1,3 @@
-"""
-User accounts for the Personal Finance Management System.
-
-Accounts live in the same finance.db as the rest of the data (users table,
-created by database.initialize_db()).  Passwords are never stored: each
-account keeps a random salt and a PBKDF2-HMAC-SHA256 hash.
-
-    has_users()                      -> bool
-    register(username, password)     -> (user, message)   user is None on failure
-    authenticate(username, password) -> user, or None if wrong
-
-A "user" is a dict:  {"id": 1, "username": "Alice"}
-
-The first account that is ever created becomes the owner of any transactions
-and budgets that already existed in an old single-user finance.db.
-"""
 
 import hashlib
 import hmac
