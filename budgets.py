@@ -1,9 +1,3 @@
-"""
-Budgets screen - PySide6 version of the original Tkinter budgets.py.
-
-Entry point is unchanged:  create_budgets_screen(parent=None)
-It still uses your existing `database` and `finance_logic` modules.
-"""
 
 from datetime import date
 
