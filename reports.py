@@ -1,9 +1,3 @@
-"""
-Reports screen - PySide6 version of the original Tkinter reports.py.
-
-Entry point is unchanged:  create_reports_screen(parent=None)
-It still uses your existing `database` and `finance_logic` modules.
-"""
 
 import csv
 
